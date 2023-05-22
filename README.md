@@ -17,12 +17,28 @@ npm t
 Npm test
 ```
 
-### Modelo de Especificação do Jest
+### Exemplo de teste unitário
+
+- Criar um arquivo calculadora.js
 
 ```js
-describe("contexto do teste", () => {
-  test("o que será testado", () => {
-    expect(); // resultado esperado
+// calculadora.js
+function soma(a, b) {
+  return a + b;
+}
+exports.soma = soma;
+```
+
+- Criar um arquivo calculadora.test.js
+
+```js
+// calculadora.test.js
+const calculo = require("./calculadora");
+
+describe("funcões matemáticas", () => {
+  test("Soma dois numeros", () => {
+    expect(calculo.soma(10, 20)).toBe(30);
+    expect(calculo.soma(20, 20)).toBe(40);
   });
 });
 ```
