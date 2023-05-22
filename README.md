@@ -11,10 +11,6 @@ npm install --save-dev jest
 # "scripts": {
 # "test": "jest",
 # }
-# Execute o Jest pelo Node.js.
-npm run test
-npm t
-Npm test
 ```
 
 ### Exemplo de Teste Unitário
@@ -51,7 +47,7 @@ describe("funcões matemáticas", () => {
   inserir as seguintes informações:
 
 ```json
-// db/db.json
+//db/db.json
 {
   "alunos": [
     {
