@@ -65,3 +65,17 @@ describe("funcões matemáticas", () => {
 - `"backend": "json-server --watch db/db.json"`
 - Executar: `npm run backend`
 - Testar abrindo no navegador: http://localhost:3000/alunos
+- Criar um arquivo asyncawaiit.test.js e inserir:
+
+```js
+describe("Testando uma requisição", () => {
+  test("requisição com sucesso", async () => {
+    const response = await fetch("http://localhost:3000/alunos/2");
+    const aluno = await response.json();
+    console.log(`O aluno é: ${aluno.nome}`);
+    expect(aluno.nome).toEqual("Ana");
+  });
+});
+```
+
+> apos isso executar `npm teste`
