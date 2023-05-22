@@ -1,7 +1,12 @@
 {
   "alunos": [
-    { "id": 1, "nome": "João Eduardo" },
-    { "id": 2, "nome": "Hugo" },
-    { "id": 3, "nome": "Rikelme" }
+    {
+      "id": 1,
+      "nome": "Maria"
+    },
+    {
+      "id": 2,
+      "nome": "Ana"
+    }
   ]
 }

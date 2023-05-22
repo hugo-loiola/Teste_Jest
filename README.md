@@ -47,7 +47,7 @@ describe("funcões matemáticas", () => {
   inserir as seguintes informações:
 
 ```json
-//db/db.json
+// db.json
 {
   "alunos": [
     {
@@ -62,5 +62,7 @@ describe("funcões matemáticas", () => {
 }
 ```
 
-- Instalar `npm install json-server`
+- Instalar: `npm install json-server`
 - `"backend": "json-server --watch db/db.json"`
+- Executar: `npm run backend`
+- Testar abrindo no navegador: http://localhost:3000/alunos
