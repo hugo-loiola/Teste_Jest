@@ -17,7 +17,7 @@ npm t
 Npm test
 ```
 
-### Exemplo de teste unitário
+### Exemplo de Teste Unitário
 
 - Criar um arquivo calculadora.js
 
@@ -42,3 +42,29 @@ describe("funcões matemáticas", () => {
   });
 });
 ```
+
+- Após isso execute `npm test`
+
+### Teste de Código Assíncrono
+
+- Criar uma pasta db, e dentro dela criar um arquivo db.json,
+  inserir as seguintes informações:
+
+```json
+// db/db.json
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Maria"
+    },
+    {
+      "id": 2,
+      "nome": "Ana"
+    }
+  ]
+}
+```
+
+- Instalar `npm install json-server`
+- `"backend": "json-server --watch db/db.json"`
