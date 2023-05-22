@@ -47,7 +47,6 @@ describe("funcões matemáticas", () => {
   inserir as seguintes informações:
 
 ```json
-// db.json
 {
   "alunos": [
     {
