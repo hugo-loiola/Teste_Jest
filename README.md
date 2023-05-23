@@ -78,4 +78,4 @@ describe("Testando uma requisição", () => {
 });
 ```
 
-> apos isso executar `npm teste`
+- Após isso executar `npm teste`

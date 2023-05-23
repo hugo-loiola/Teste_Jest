@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684796483873" clover="3.2.0">
-  <project timestamp="1684796483873" name="All files">
+<coverage generated="1684797960757" clover="3.2.0">
+  <project timestamp="1684797960757" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="12" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="calculadora.js" path="/home/hugo/Desenvolvimento/Teste_Jest/calculadora.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
